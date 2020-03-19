@@ -1,0 +1,22 @@
+importFrom(corpus, text_split)
+import(dplyr)
+importFrom(stringr, str_replace_all)
+importFrom(textclean, mgsub_regex, replace_word_elongation)
+import(tidytext)
+
+
+export(correct_elongation)
+export(correct_mispellings)
+export(edit_nonASCII)
+export(edit_email)
+export(edit_twitter)
+export(edit_URL)
+export(edit_time)
+export(edit_date)
+export(edit_symbols)
+export(edit_contractions)
+export(edit_interjections)
+export(edit_money)
+export(out_of_vocabulary)
+export(split_to_sentences)
+
