@@ -1,11 +1,10 @@
 Package: txtprocess
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Text Processing Tools
 Version: 0.1.0
 Author: Achilleas Passias
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: The package maintainer <passias@runbox.com>
+Description: Tools for cleaning and processing text.
 Imports: textclean, stringr, corpus, dplyr, tidytext
 License: GPL-3
 Encoding: UTF-8
